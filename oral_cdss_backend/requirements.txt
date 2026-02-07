@@ -1,0 +1,7 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.0.5  # 使用更简单的版本
+PyMySQL==1.1.0  # 可选，如果不用MySQL可以去掉
+python-dotenv==1.0.0
+# 移除 python-jose，使用简单实现
+# 移除 passlib，使用简单哈希
